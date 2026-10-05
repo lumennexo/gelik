@@ -1,0 +1,24 @@
+{
+  "name": "GELIK · LUMEN",
+  "short_name": "GELIK",
+  "description": "Administración escolar · Colegio Bertha Von Glumer «Arcoíris»",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#F7F4ED",
+  "theme_color": "#F7F4ED",
+  "icons": [
+    {
+      "src": "assets/favicon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "assets/gelik-icon.png",
+      "sizes": "1024x1024",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#F7F4ED">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="GELIK">
+  <title>GELIK · LUMEN</title>
+  <link rel="icon" type="image/png" href="assets/favicon.png">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+  <link rel="manifest" href="manifest.webmanifest">
+  <style>
+    html,body{width:100%;height:100%;margin:0;overflow:hidden;background:#F7F4ED}
+    #gelik{position:fixed;inset:0;width:100%;height:100%;border:0;background:#F7F4ED}
+  </style>
+</head>
+<body>
+  <!--
+    PEGA AQUÍ LA URL /exec DE LA IMPLEMENTACIÓN ACTUAL DE GELIK.
+    No agregues ?t=TOKEN: GELIK ya tiene su propio ingreso de llave,
+    conserva la llave activa en la sesión y valida el rol en Apps Script.
+  -->
+  <iframe
+    id="gelik"
+    title="GELIK · Administración escolar"
+    src="PEGA_AQUI_LA_URL_EXEC_DE_GELIK"
+    allow="clipboard-read; clipboard-write"
+    referrerpolicy="strict-origin-when-cross-origin">
+  </iframe>
+</body>
+</html>
